@@ -1,5 +1,5 @@
 import Expenses from "./components/Expenses";
-
+import './components/jordan.css'
 function App() {
   const expenses = [
     {
@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Financial Planner- A React Web Application created by Jordan Easter</h2>
+      <h2 className="myTitle">Financial Planner- A React Web Application created by Jordan Easter</h2>
       <Expenses items={expenses}/>
     </div>
   );
